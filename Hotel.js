@@ -262,13 +262,13 @@ function eventos() {
         }
     }
 
-    function auditorio() {
+  function auditorio() {
         var laranja = 150;
-        var colorido = 350;
+        var colorado = 350;
 
         var convidados = parseInt(prompt('Qual o número de convidados para o evento?'));
 
-        if (convidados > colorido) {
+        if (convidados > colorado) {
             alert('Quantidade de convidados superior a capacidade máxima, suporta apenas 350 convidados.');
             escolha();
         } else {
@@ -300,7 +300,7 @@ function eventos() {
                     escolha();
                 }
             } else if (convidados > 220) {
-                alert('Use o auditório Colorido');
+                alert('Use o auditório Colorado');
 
                 var confirmar = prompt('Gostaria de efetuar a reserva? S/N');
 
@@ -314,7 +314,7 @@ function eventos() {
 
             }
         }
-    } 
+    }
 
     function restaurante() {
         var dia_inicio = 7;
